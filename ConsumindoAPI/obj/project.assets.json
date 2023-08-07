@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nathan Fontenele\\Desktop\\API\\ConsumindoAPI\\ConsumindoAPI\\ConsumindoAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Nathan Fontenele\\Desktop\\projetos de estudo\\ConsumindoAPI\\ConsumindoAPI\\ConsumindoAPI.csproj",
       "projectName": "ConsumindoAPI",
-      "projectPath": "C:\\Users\\Nathan Fontenele\\Desktop\\API\\ConsumindoAPI\\ConsumindoAPI\\ConsumindoAPI.csproj",
+      "projectPath": "C:\\Users\\Nathan Fontenele\\Desktop\\projetos de estudo\\ConsumindoAPI\\ConsumindoAPI\\ConsumindoAPI.csproj",
       "packagesPath": "C:\\Users\\Nathan Fontenele\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nathan Fontenele\\Desktop\\API\\ConsumindoAPI\\ConsumindoAPI\\obj\\",
+      "outputPath": "C:\\Users\\Nathan Fontenele\\Desktop\\projetos de estudo\\ConsumindoAPI\\ConsumindoAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nathan Fontenele\\AppData\\Roaming\\NuGet\\NuGet.Config",
