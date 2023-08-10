@@ -4,6 +4,8 @@ namespace ConsumindoAPI.Modelo;
 
 public class ApiModel
 {
+   private string[] tonalidades = {"C", "C#", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"};
+
    [JsonPropertyName("song")]
     public string? Musica { get; set; }
 
@@ -16,11 +18,21 @@ public class ApiModel
    [JsonPropertyName("genre")]
     public string? Genero { get; set; }
 
+   [JsonPropertyName("key")]
+   public int Chave { get; set; }
+
+    public string Tonalidade { get
+      {
+         return tonalidades[Chave];
+      }
+   }
+
    public void getInfo()
    {
       Console.WriteLine(Musica);
       Console.WriteLine(Artista);
       Console.WriteLine(Duracao/1000);
       Console.WriteLine(Genero);
+      Console.WriteLine(Tonalidade);
    }
 }

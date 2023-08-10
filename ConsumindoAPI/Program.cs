@@ -8,7 +8,16 @@ using (HttpClient client = new HttpClient())
 
    var musics = JsonSerializer.Deserialize<List<ApiModel>>(reponse) ;
 
-   LinqFilters.musicsByArtist(musics, "XXXTENTACION");
+   //LinqFilters.musicsByArtist(musics, "XXXTENTACION");
 
+   //MusicasFavoritas favorites = new MusicasFavoritas("Sergio");
+   //favorites.add(musics[1]);
+   //favorites.add(musics[423]);
+   //favorites.add(musics[645]);
+   //favorites.add(musics[234]);
 
+   //favorites.getFavoriteMusics();
+
+   musics[265].getInfo();
+   
 }

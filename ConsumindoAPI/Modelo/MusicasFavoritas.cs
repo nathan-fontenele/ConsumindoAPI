@@ -23,8 +23,7 @@ public class MusicasFavoritas
 
       foreach (var item in Favoritas)
       {
-         Console.WriteLine(item.Musica);
-         Console.WriteLine(item.Artista);
+         Console.WriteLine($"{item.Musica} de {item.Artista}");
       }
    }
 }
