@@ -42,4 +42,14 @@ internal class LinqFilters
          Console.WriteLine($"- {item}");
       }
    }
+
+   public static void musicsByTon(List<ApiModel> musicas, int tonalidade)
+   {
+      var musics = musicas.Where(musica => musica.Chave!.Equals(tonalidade)).Select(musica => musica.Musica).Distinct().ToList();
+
+      foreach (var item in musics)
+      {
+         Console.WriteLine($"- {item}");
+      }
+   }
 }
